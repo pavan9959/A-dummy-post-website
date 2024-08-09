@@ -1,0 +1,150 @@
+.app-comp {
+  background-color: rgb(20, 19, 25);
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.login-comp {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 3%;
+}
+.loginLogo {
+  width: 10%;
+  height: 6%;
+  padding-left: 45%;
+  padding-top: 12%;
+}
+.login-form {
+  border: 2px solid rgb(94, 94, 97);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 52vh;
+  border-block-end-width: 100%;
+  margin-top: 10%;
+  align-items: center;
+}
+.p-tag {
+  color: rgb(107, 108, 112);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.h-tag {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.login-form {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  text-align: center;
+  position: relative;
+}
+
+.login-form h2 {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.login-form h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.input-group label {
+  color: #999;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.forgot-password {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: none;
+  margin: 0;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #1a73e8;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #1558b0;
+}
+
+.register-text {
+  color: #999;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.register-text a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.inp {
+  padding-right: 0 !important;
+  padding-left: 2% !important;
+  width: 98%;
+}
