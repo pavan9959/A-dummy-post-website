@@ -1,5 +1,6 @@
 # Link to the site
 https://66b5ca334567de1035354b34--spontaneous-cendol-738dd5.netlify.app
+if the link wont opens try it opening in incognito mode
 
 # Getting Started with Create React App
 
